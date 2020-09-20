@@ -7,10 +7,10 @@
     <Authors>AsadoDevCulture</Authors>
     <Company />
     <Product />
-    <Description>An IConfiguration implementation for receiving configuration from a MongoDB database</Description>
-    <PackageProjectUrl>https://github.com/javitolin/MongoConfiguration</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/javitolin/MongoConfiguration</RepositoryUrl>
-    <PackageReleaseNotes>Fully working mongodb configuration provider</PackageReleaseNotes>
+    <Description>An IConfiguration extension for enabling reuse of key-value configuration items using format characters</Description>
+    <PackageProjectUrl>https://github.com/javitolin/TemplateFormattedConfiguration</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/javitolin/TemplateFormattedConfiguration</RepositoryUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
