@@ -1,7 +1,7 @@
 # TemplateFormattedConfiguration
 > An IConfiguration extension for enabling reuse of key-value configuration items using format characters
 
-
+[![Build status](https://dev.azure.com/asadodevculture/TemplateFormattedConfiguration/_apis/build/status/TemplateFormattedConfiguration-ASP.NET%20Core-CI)](https://dev.azure.com/asadodevculture/TemplateFormattedConfiguration/_build/latest?definitionId=2)
 
 ## Installation
 ```
