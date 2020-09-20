@@ -1,34 +1,21 @@
-# MongoConfiguration
-> An IConfiguration implementation for receiving configuration from a MongoDB database
+# TemplateFormattedConfiguration
+> An IConfiguration extension for enabling reuse of key-value configuration items using format characters
 
-[![Build status](https://dev.azure.com/asadodevculture/MongoConfiguration/_apis/build/status/MongoConfiguration-Build)](https://dev.azure.com/asadodevculture/MongoConfiguration/_build/latest?definitionId=1)
+
 
 ## Installation
 ```
-Install-Package MongoConfiguration -Version 0.1.0-Alpha
+Install-Package TemplateFormattedConfiguration -Version 1.0
 ```
 
 ## Usage example
-1. Create a `MongoConfigurationSettings` object with needed configuration
-2. Use the extension method `AddMongoProvider`
-3. Use IConfiguration in a constructor and use like you would use with any other provider
+1. In your configuration, set values to be {another_key}
+2. Call configuration.EnableTemplatedConfiguration();
+3. The value of that keys will be replaces by another_key's value
 
-```
-            MongoConfigurationSettings mongoConfigurationSettings = new MongoConfigurationSettings
-            {
-                ConnectionString = "mongodb+srv://test_user:test_user@cluster0.sn9q9.azure.mongodb.net/test",
-                DatabaseName = "configuration_db",
-                CollectionName = "configuration_collection",
-                KeyName = "MyKey",
-                KeyValue = "mykeyvalue"
-            };
-
-            var builder = new ConfigurationBuilder()
-                .AddMongoProvider(mongoConfigurationSettings);
-```
 
 ## Contributing
-1. Fork it (<https://github.com/javitolin/MongoConfiguration/fork>)
+1. Fork it (<https://github.com/javitolin/TemplateFormattedConfiguration/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)

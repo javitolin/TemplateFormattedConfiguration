@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateFormattedConfigurat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateFormattedConfiguration.Tests", "TemplateFormattedConfiguration.Tests\TemplateFormattedConfiguration.Tests.csproj", "{362C7836-9BD9-4CE7-99B1-25C896992F27}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B43C7D02-5EE9-4418-B5BD-C34C6B7884E1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
