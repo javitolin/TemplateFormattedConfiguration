@@ -13,6 +13,14 @@ Install-Package TemplateFormattedConfiguration -Version 1.0
 2. Call configuration.EnableTemplatedConfiguration();
 3. The value of that keys will be replaces by another_key's value
 
+appsettings.json:
+{ 
+"name" : "Steve",
+"last_name" : "Jobs",
+"full_name" : "{name} {last_name}"
+}
+
+configuration["full_name"] -> "Steve Jobs"
 
 ## Contributing
 1. Fork it (<https://github.com/javitolin/TemplateFormattedConfiguration/fork>)
