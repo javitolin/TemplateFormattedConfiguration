@@ -31,6 +31,8 @@ configuration["full_name"] -> "Steve Jobs"
 
 ## Meta
 
-AsadoDevCulture – [@jdorfsman](https://twitter.com/jdorfsman)
+[AsadoDevCulture](https://AsadoDevCulture.com) 
+
+[@jdorfsman](https://twitter.com/jdorfsman)
 
 Distributed under the MIT license.
