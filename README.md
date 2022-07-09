@@ -1,7 +1,7 @@
 # TemplateFormattedConfiguration
 > An IConfiguration extension for enabling reuse of key-value configuration items using format characters
 
-[![Build Status](https://dev.azure.com/asadodevculture/AsadoDevCultureProjects/_apis/build/status/TemplateFormattedConfiguration-Build?branchName=master)](https://dev.azure.com/asadodevculture/AsadoDevCultureProjects/_build/latest?definitionId=4&branchName=master)
+[![Build Status](https://dev.azure.com/asadodevculture/AsadoDevCultureProjects/_apis/build/status/TemplateFormattedConfiguration-Build?branchName=main)](https://dev.azure.com/asadodevculture/AsadoDevCultureProjects/_build/latest?definitionId=4&branchName=main)
 
 ## Installation
 ```
